@@ -30,43 +30,43 @@ public class MovementController : MonoBehaviour
 
     public void GetMovementDirection()
     {
-        if (movementInput.x < 0)
+        if (movementInput.x < 0) //LEFT
         {
-            if (movementInput.y > 0)
+            if (movementInput.y > 0) //Left Up
             {
                 direction = new Vector3(-0.5f, 0.5f);
             }
-            else if (movementInput.y < 0)
+            else if (movementInput.y < 0) //Left Down
             {
-                direction = new Vector3(-0.5f, 0.5f);
+                direction = new Vector3(-0.5f, -0.5f);
             }
-            else
+            else //Move Left
             {
                 direction = new Vector3(-1, 0, 0);
             }
             transform.position += direction;
         }
-        else if (movementInput.x > 0)
+        else if (movementInput.x > 0) //RIGHT
         {
-            if(movementInput.y > 0)
+            if(movementInput.y > 0) //Right up
             {
                 direction = new Vector3(0.5f, 0.5f);
             }
-            else if (movementInput.y < 0)
+            else if (movementInput.y < 0) //Right down
             {
                 direction = new Vector3(0.5f, -0.5f);
             }
-            else
+            else //Move Right
             {
                 direction = new Vector3(1, 0, 0);
             }
             transform.position += direction;
         }
-    }
 
-public void OnMove()
+        
+    }
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        //movementInput = value.Get<Vector2>();
+        transform.position -= direction;
     }
-
 }
