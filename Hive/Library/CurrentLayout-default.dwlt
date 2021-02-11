@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Game
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
@@ -45,10 +45,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 578, y: 492}
-  m_MaxSize: {x: 14001, y: 14042}
+  m_MinSize: {x: 579, y: 492}
+  m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 86
+  controlID: 85
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -68,8 +68,8 @@ MonoBehaviour:
     y: 0
     width: 276
     height: 947
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -226,7 +226,7 @@ MonoBehaviour:
   m_MinSize: {x: 303, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 60
+  controlID: 110
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -251,7 +251,7 @@ MonoBehaviour:
   m_MinSize: {x: 303, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 61
+  controlID: 111
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -341,9 +341,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 2.0494065, y: -0.73370725, z: -1.5482868}
+    m_Target: {x: 0.5044151, y: 0.61673534, z: -19.547977}
     speed: 2
-    m_Value: {x: 2.0494065, y: -0.73370725, z: -1.5482868}
+    m_Value: {x: 0.5044151, y: 0.61673534, z: -19.547977}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -394,9 +394,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 4.260908
+    m_Target: 3.9798732
     speed: 2
-    m_Value: 4.260908
+    m_Value: 3.9798732
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -459,22 +459,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/HexSpriteTiles_Setup/SpriteSets
+    - Assets/ImportedTileSprites/Palette
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/HexSpriteTiles_Setup/SpriteSets
+  - Assets/ImportedTileSprites/Palette
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\mayon\Documents\GitHub\willi6m7-game-project\Hive
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 14}
-    m_SelectedIDs: e23f0000
-    m_LastClickedID: 16354
-    m_ExpandedIDs: 00000000cc3f0000ce3f000000ca9a3b
+    scrollPos: {x: 0, y: 78}
+    m_SelectedIDs: 00550000
+    m_LastClickedID: 21760
+    m_ExpandedIDs: 00000000da3f0000dc3f0000ea52000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -502,7 +502,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000cc3f0000ce3f0000
+    m_ExpandedIDs: 00000000da3f0000dc3f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -529,8 +529,8 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: c6230000cc470000de4b0000644b0000ee4900004e550000245b0000285b0000a03f0000
+    m_HadKeyboardFocusLastEvent: 0
+    m_ExpandedInstanceIDs: c6230000cc470000de4b0000644b0000ee4900004e550000245b0000285b0000a03f0000ac410000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -623,9 +623,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 2ef7ffff
-      m_LastClickedID: -2258
-      m_ExpandedIDs: 44fbffff603f0000
+      m_SelectedIDs: 3ad1ffff
+      m_LastClickedID: -11974
+      m_ExpandedIDs: 44fbffff583f0000643f0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
