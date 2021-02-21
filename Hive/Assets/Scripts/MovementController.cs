@@ -13,6 +13,7 @@ public class MovementController : MonoBehaviour
 
     bool hasMoved;
     bool beenBlocked = false;
+    bool beenHurt = false;
 
     private void Start()
     {
@@ -88,7 +89,9 @@ public class MovementController : MonoBehaviour
     public void OnCollisionCooldown()
     {
         beenBlocked = false;
+        beenHurt = false;
         animator.SetBool("beenRepelled", beenBlocked);
+        animator.SetBool("beenHurt", beenHurt);
     }
 
     //Method handling the wait time of playing the collision animation. Calls OnCollisionCooldown().
@@ -96,6 +99,15 @@ public class MovementController : MonoBehaviour
     {
         yield return new WaitForSeconds(2);
         OnCollisionCooldown();
+    }
+
+    //Method handling damage triggers. A temporary fix, but it demonstrates a "hurt" sprite's functionality.
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        beenHurt = true;
+        animator.SetBool("beenHurt", beenHurt);
+        transform.position -= direction;
+        StartCoroutine("StopCollisionAnimation");
     }
 
 }
