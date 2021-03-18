@@ -19,9 +19,9 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Hierarchy
+  m_Title: Project
   m_RootView: {fileID: 6}
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -45,10 +45,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 579, y: 342}
-  m_MaxSize: {x: 12004, y: 8042}
+  m_MinSize: {x: 579, y: 492}
+  m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 79
+  controlID: 48
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -111,7 +111,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: FlowchartWindow
+  m_Name: ProjectBrowser
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
@@ -120,16 +120,16 @@ MonoBehaviour:
     y: 676
     width: 1574
     height: 271
-  m_MinSize: {x: 101, y: 121}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 12}
+  m_MinSize: {x: 231, y: 271}
+  m_MaxSize: {x: 10001, y: 10021}
+  m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 21}
   - {fileID: 17}
   - {fileID: 13}
   - {fileID: 12}
-  m_Selected: 3
-  m_LastSelected: 2
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -152,7 +152,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 997
-  m_MinSize: {x: 875, y: 300}
+  m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
@@ -225,10 +225,10 @@ MonoBehaviour:
     y: 0
     width: 1574
     height: 947
-  m_MinSize: {x: 303, y: 342}
-  m_MaxSize: {x: 8003, y: 8042}
+  m_MinSize: {x: 303, y: 492}
+  m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 53
+  controlID: 73
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -253,7 +253,7 @@ MonoBehaviour:
   m_MinSize: {x: 303, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 54
+  controlID: 74
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -335,7 +335,7 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: 16242
+  m_LastSelectedObjectID: -7122
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -475,9 +475,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 1.4694782, y: 0.009435274, z: -2.3191683}
+    m_Target: {x: 0, y: 0, z: -10}
     speed: 2
-    m_Value: {x: 1.499251, y: -0.024154447, z: -2.2998695}
+    m_Value: {x: 0, y: 0, z: -10}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -528,9 +528,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 5.119553
+    m_Target: 12.124355
     speed: 2
-    m_Value: 5.3607883
+    m_Value: 12.124355
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -593,22 +593,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/FungusExamples/Sherlock/Audio/GUI
+    - Assets/Scenes
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/FungusExamples/Sherlock/Audio/GUI
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\mayon\Documents\GitHub\willi6m7-game-project\Hive
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 554}
-    m_SelectedIDs: d04d0000
-    m_LastClickedID: 19920
-    m_ExpandedIDs: 00000000084900000a490000
+    scrollPos: {x: 0, y: 14}
+    m_SelectedIDs: 30490000
+    m_LastClickedID: 18736
+    m_ExpandedIDs: 00000000084900003849000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -661,8 +661,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 2a4d0000
-    m_LastClickedInstanceID: 19754
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000cc470000de4b0000644b0000ee4900004e550000245b0000285b0000a03f0000ac4100002a46000090e2ffff
     m_RenameOverlay:
@@ -724,7 +724,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 0
+  m_LastVerticalScrollValue: 487
   m_GlobalObjectId: 
   m_LockTracker:
     m_IsLocked: 0
@@ -757,9 +757,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 38480000
-      m_LastClickedID: 18488
-      m_ExpandedIDs: 
+      m_SelectedIDs: b4490000
+      m_LastClickedID: 0
+      m_ExpandedIDs: 2cb0ffff2ab2ffff6eb2ffff62b3ffff6eb3ffffa6b3ffffb2b3ffffc0b5fffff2b5fffffab5ffff06b6ffff12b6ffff2ee4ffff60e9ffff74e9ffff38eaffff6eeaffff7aeaffffc6eeffff18efffff5cefffffa8efffff44f0ffff5cf0ffff9af0ffff10f1ffff2af1ffff46f1ffff80f1fffff8f1ffff04f2ffff10f2ffff94f2ffffa8f2ffffaaf2ffffaef2ffffe2f2fffff6f2ffff2ef6ffff4cf6ffffa2f6ffffaef6ffffdef8ffffeaf8fffffef8ffff12f9ffff2ef9ffff42f9ffff58f9ffff6cf9ffff80f9ffff8cf9ffffcaf9ffffd8f9ffffeef9ffff00faffff0cfaffff1efaffff52faffff60faffff84faffff44fbffff686d0000c86d0000686e00006c6f0000ca6f00001670000072700000be730000e8730000d28000005c810000048200007c8200008e8200007e8300000a840000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -831,8 +831,8 @@ MonoBehaviour:
     vZoomLockedByDefault: 0
     m_HBaseRangeMin: -574.5
     m_HBaseRangeMax: 574.5
-    m_VBaseRangeMin: -327.5
-    m_VBaseRangeMax: 327.5
+    m_VBaseRangeMin: -317
+    m_VBaseRangeMax: 317
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -849,11 +849,11 @@ MonoBehaviour:
     m_DrawArea:
       serializedVersion: 2
       x: 0
-      y: 0
+      y: 21
       width: 1149
-      height: 655
+      height: 634
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 574.5, y: 327.5}
+    m_Translation: {x: 574.5, y: 317}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -861,9 +861,9 @@ MonoBehaviour:
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
       x: -574.5
-      y: -327.5
+      y: -317
       width: 1149
-      height: 655
+      height: 634
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 1149, y: 655}
