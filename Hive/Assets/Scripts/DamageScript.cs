@@ -6,8 +6,4 @@ public class DamageScript : MonoBehaviour
 {
     public Animator animator;
     bool beenHurt = false;
-    
-
-
-
 }
