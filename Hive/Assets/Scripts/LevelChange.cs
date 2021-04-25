@@ -15,13 +15,12 @@ public void OnButtonPress(int sceneToChange)
         if (StaticVariableScript.turn%2 == 0)
         {
             Debug.Log("Even - Expedition Phase");
-            ResourceScript.food++;
-            Debug.Log("Food: " + ResourceScript.food);
-            
+            FoodResourceScript.food++;
+            Debug.Log("Food: " + FoodResourceScript.food);
         }
         else {
             Debug.Log("Odd - Nest Phase");
-            Debug.Log("Food: " + ResourceScript.food);
+            Debug.Log("Food: " + FoodResourceScript.food);
             StaticVariableScript.gameTurn++; //The gameTurn variable is the turn displayed "in-game," where every two "turns" is technically one turn.
         }
         StaticVariableScript.turn++;
