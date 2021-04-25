@@ -8,17 +8,24 @@ public class CutsceneScript : MonoBehaviour
     public GameObject MainCamera;
 
     // Start is called before the first frame update
-    void Start()
+    public void Start()
     {
         StartCoroutine(StartSequence());
     }
 
-    IEnumerator StartSequence()
+    public IEnumerator StartSequence()
     {
-        CutsceneCamera.SetActive(true);
-        MainCamera.SetActive(false);
-        yield return new WaitForSeconds(3);
-        MainCamera.SetActive(true);
-        CutsceneCamera.SetActive(false);
+        if (StaticVariableScript.turn == 0)
+        {
+            CutsceneCamera.SetActive(true);
+            MainCamera.SetActive(false);
+            yield return new WaitForSeconds(3);
+            MainCamera.SetActive(true);
+            CutsceneCamera.SetActive(false);
+        }
+        else {
+            CutsceneCamera.SetActive(false);
+        }
+        
     }
 }
