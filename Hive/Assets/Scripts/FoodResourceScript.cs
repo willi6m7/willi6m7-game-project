@@ -5,9 +5,9 @@ using UnityEngine.UI;
 
 public class FoodResourceScript : MonoBehaviour
 {
-    public static int food; //Food resource; can be used for things like feeding manpower and winning the game
+    public static int food = 10; //Food resource; can be used for things like feeding manpower and winning the game
     public Text txt_FoodResource;
-    
+
 
     void Start()
     {
@@ -16,6 +16,6 @@ public class FoodResourceScript : MonoBehaviour
     }
     void Update()
     {
-        txt_FoodResource.text = food.ToString();
+        txt_FoodResource.text = food.ToString() + " Food";
     }
 }
