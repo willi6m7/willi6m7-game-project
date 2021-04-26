@@ -9,4 +9,5 @@ public class StaticVariableScript : MonoBehaviour
     public static int warriors = 1;
     public static List<int> farms = new List<int>();
     public static List<int> houses = new List<int>();
+    public static int alertLevel = 0;
 }
