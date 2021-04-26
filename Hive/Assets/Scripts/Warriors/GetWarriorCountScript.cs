@@ -15,5 +15,9 @@ public class GetWarriorCountScript : MonoBehaviour
     public void Update()
     {
         txt_WarriorCount.text = StaticVariableScript.warriors.ToString() + " Warrior Drones Available";
+        if (StaticVariableScript.warriors < 0)
+        {
+            StaticVariableScript.warriors = 0;
+        }
     }
 }
